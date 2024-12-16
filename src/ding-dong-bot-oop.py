@@ -17,9 +17,9 @@ from wechaty import (
     MiniProgram,
     Friendship,
     FriendshipType,
-    EventReadyPayload
+    EventReadyPayload,
+    WechatyOptions
 )
-from wechaty.wechaty import WechatyOptions
 
 logger = get_logger(__name__)
 
